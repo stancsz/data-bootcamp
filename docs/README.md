@@ -50,15 +50,15 @@ docker-compose up
 
 ## Airflow UI
 http://localhost:8080/
-![img.png](docs/README/img.png)
+![img.png](README/img.png)
 
 ## Spark UI
 http://localhost:8082/
-![img_1.png](docs/README/img_1.png)
+![img_1.png](README/img_1.png)
 
 ## Jupyter Lab
 http://localhost:8888/
-![img_2.png](docs/README/img_2.png)
+![img_2.png](README/img_2.png)
 
 # Docker Example
 ```

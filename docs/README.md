@@ -2,7 +2,7 @@
 This repository contains projects and images to assist an entry-level developer in transitioning into a data platform engineer. The goal of a Data Platform Engineer is to architect and build cloud-native data pipelines and infrastructure for big data analytics and end-to-end machine learning projects.
 
 # Setup Instruction
-- [Getting README and setup guide](docker/README.md)
+- [docker README and setup guide](docker/README.md)
 - [Airflow README and setup guide](airflow/README.md)
 - [Spark README and setup guide](spark/README.md)
 - [dbt README and setup guide](spark/README.md)

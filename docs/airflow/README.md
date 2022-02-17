@@ -1,8 +1,8 @@
 # Airflow Docker Image with Starter Dag
-This is a starter repo to get started with airflow, and to create your first DAGs with examples on how to dynamically generate them.
+This is an airflow starter environment for getting started and creating your first DAGs, with examples of how to generate them dynamically.
 
-![](README/img.png)
-![img_1.png](README/img2.png)
+![img.png)](README/img.png)
+![img2.png](README/img2.png)
 
 This is based off the airflow [quickstart guide](https://airflow.apache.org/docs/apache-airflow/2.0.1/start/docker.html). It is only meant for local dev purposes only. This image extends the official image to allow installation of images during setup, with dependencies added in the `requirements.txt`. This setup is also meant for users who would like to have a quick and convenient local environment for developing dags meant to deployed to Google Cloud Composer or Astronomer. 
 

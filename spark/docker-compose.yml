@@ -1,6 +1,6 @@
 version: '3'
 services:
-  # spark-with-jupyter services
+  # spark services
   spark:
     image: docker.io/bitnami/spark:3
     environment:
@@ -15,7 +15,7 @@ services:
     image: docker.io/bitnami/spark:3
     environment:
       - SPARK_MODE=worker
-      - SPARK_MASTER_URL=spark-with-jupyter://spark-with-jupyter:7077
+      - SPARK_MASTER_URL=spark://spark:7077
       - SPARK_WORKER_MEMORY=1G
       - SPARK_WORKER_CORES=1
       - SPARK_RPC_AUTHENTICATION_ENABLED=no
@@ -26,7 +26,7 @@ services:
     image: docker.io/bitnami/spark:3
     environment:
       - SPARK_MODE=worker
-      - SPARK_MASTER_URL=spark-with-jupyter://spark-with-jupyter:7077
+      - SPARK_MASTER_URL=spark://spark:7077
       - SPARK_WORKER_MEMORY=1G
       - SPARK_WORKER_CORES=1
       - SPARK_RPC_AUTHENTICATION_ENABLED=no
@@ -34,7 +34,7 @@ services:
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - SPARK_SSL_ENABLED=no
 
-  # jupyter notebook for all-spark-with-jupyter
+  # jupyter notebook for all-spark
   all-spark-notebook:
     image: docker.io/jupyter/all-spark-notebook
     environment:
